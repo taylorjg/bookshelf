@@ -1,0 +1,19 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "Bookshelf",
+  "scripts": {
+    "start": "export $(cat .env | xargs); node .",
+    "eslint": "eslint ."
+  },
+  "author": "Jonathan Taylor",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "eslint": "^6.6.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mustache-express": "^1.2.8"
+  }
+}

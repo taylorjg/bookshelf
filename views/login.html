@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <title>Bookshelf - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+    <form method="POST" action="/login.html">
+        <input type="password" name="password" size="40" />
+        <button type="submit">Login</button>
+    </form>
+    {{#loginFailed}}
+    <div class="login-failed">Login failed!</div>
+    {{/loginFailed}}
+</body>
+
+</html>
